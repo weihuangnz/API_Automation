@@ -1,0 +1,97 @@
+{
+                                                                "Products": {
+                                                                                "Product": [{
+                                                                                                "ProductBenefits": {
+                                                                                                                "ProductBenefit": [{
+                                                                                                                                "CommissionAdjustmentFactor": "40",
+                                                                                                                                "AttributeGroups": {
+                                                                                                                                                "AttributeGroup": [{
+                                                                                                                                                                "Values": "Trauma",
+                                                                                                                                                                "Name": "SumAssuredValidation",
+                                                                                                                                                                "Description": "SumAssuredValidation"
+                                                                                                                                                },
+                                                                                                                                                {
+                                                                                                                                                                "Values": "Trauma",
+                                                                                                                                                                "Name": "OutputDisplay",
+                                                                                                                                                                "Description": "OutputDisplay"
+                                                                                                                                                }]
+                                                                                                                                },
+                                                                                                                                "BenefitCategory": "Trauma",
+                                                                                                                                "BenefitCode": "ProgCare",
+                                                                                                                                "BenefitDescription": "Accelerated Progressive Care",
+                                                                                                                                "BenefitName": "Accelerated Progressive Care",
+                                                                                                                                "Channel": "AIA",
+                                                                                                                                "BenefitId": "9afdff62-2d2a-4b41-a210-df6c21cbfea1",
+                                                                                                                                "isAvailable": true,
+                                                                                                                                "isMain": false,
+                                                                                                                                "LinkType": "A",
+                                                                                                                                "Load": "0.0",
+                                                                                                                                "LoadingPerMille": "4",
+                                                                                                                                "LoadingTerm": "17",
+                                                                                                                                "MaxInstancesOfBenefit": "4",
+                                                                                                                                "ParentBenefits": {
+                                                                                                                                                "ParentBenefit": [{
+                                                                                                                                                                "BenefitId": "3c464b53-dde2-422b-b005-9e268eab51ec",
+                                                                                                                                                                "BenefitCode": "Life"
+                                                                                                                                                }]
+                                                                                                                                },
+                                                                                                                                "PremiumOption": "R",
+                                                                                                                                "ProductCode": "AIALivingP",
+                                                                                                                                "ProductName": "AIA Living Personal",
+                                                                                                                                "SortOrder": 4,
+                                                                                                                                "SumAssured": "62471"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                                "CommissionAdjustmentFactor": "40",
+                                                                                                                                "AttributeGroups": {
+                                                                                                                                                "AttributeGroup": [{
+                                                                                                                                                                "Values": "Life",
+                                                                                                                                                                "Name": "OutputDisplay",
+                                                                                                                                                                "Description": "OutputDisplay"
+                                                                                                                                                }]
+                                                                                                                                },
+                                                                                                                                "BenefitCategory": "Life",
+                                                                                                                                "BenefitCode": "Life",
+                                                                                                                                "BenefitDescription": "Life Cover",
+                                                                                                                                "BenefitName": "Life Cover",
+                                                                                                                                "Channel": "AIA",
+                                                                                                                                "ExistingCover": "N",
+                                                                                                                                "BenefitId": "3c464b53-dde2-422b-b005-9e268eab51ec",
+                                                                                                                                "isAvailable": true,
+                                                                                                                                "isIndexed": "L",
+                                                                                                                                "isMain": true,
+                                                                                                                                "Load": "50.0",
+                                                                                                                                "LoadingPerMille": "1",
+                                                                                                                                "LoadingTerm": "13",
+                                                                                                                                "MaxInstancesOfBenefit": "4",
+                                                                                                                                "PremiumOption": "R",
+                                                                                                                                "ProductCode": "AIALivingP",
+                                                                                                                                "ProductName": "AIA Living Personal",
+                                                                                                                                "SortOrder": 1,
+                                                                                                                                "SumAssured": "${__eval(${RANDOM_SUM_ASSURED})}"
+                                                                                                                }]
+                                                                                                },
+                                                                                                "Channel": "AIA",
+                                                                                                "ProductName": "AIA Living Personal",
+                                                                                                "ProductCode": "AIALivingP"
+                                                                                }]
+                                                                },
+                                                                "PartyRoleDetails": {
+                                                                                "Party": {
+                                                                                                "selfEmployedGT3Years": "No",
+                                                                                                "EmploymentStatus": "Employed",
+                                                                                                "Salary": null,
+                                                                                                "OccupationClass": "5",
+                                                                                                "Occupation": null,
+                                                                                                "Gender": "M",
+                                                                                                "SmokerStatus": "NS",
+                                                                                                "BirthDate": null,
+                                                                                                "Age": "${__eval(${RANDOM_AGE})}",
+                                                                                                "LastName": "zzz",
+                                                                                                "FirstName": null
+                                                                                },
+                                                                                "LifeId": "a552f453-1c48-42f3-be6b-09e118c9c9fb",
+                                                                                "Id": "a552f453-1c48-42f3-be6b-09e118c9c9fb",
+                                                                                "LifeNumber": 1
+                                                                }
+                                                },

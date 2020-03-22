@@ -1,0 +1,100 @@
+        {
+          "Products": {
+            "Product": [
+              {
+                "ProductBenefits": {
+                  "ProductBenefit": [
+                    {
+                      "CommissionAdjustmentFactor": 100,
+                      "AttributeGroups": {
+                        "AttributeGroup": [
+                          {
+                            "Values": "Life",
+                            "Name": "OutputDisplay",
+                            "Description": "OutputDisplay"
+                          }
+                        ]
+                      },
+                      "BenefitCategory": "Life",
+                      "BenefitCode": "Life",
+                      "BenefitDescription": "Life Cover",
+                      "BenefitName": "Life Cover",
+                      "Channel": "AIA",
+                      "ExistingCover": "N",
+                      "BenefitId": "fe94f027-56e8-4af1-b7eb-a6b2293a4097",
+                      "isAvailable": true,
+                      "isIndexed": "I",
+                      "isMain": true,
+                      "Load": 0,
+                      "LoadingPerMille": 0,
+                      "MaxInstancesOfBenefit": "4",
+                      "PremiumOption": "R",
+                      "ProductCode": "AIALivingP",
+                      "ProductName": "AIA Living Personal",
+                      "SortOrder": 1,
+                      "SumAssured": "${__eval(${RANDOM_SUM_ASSURED})}"
+                    },
+                    {
+                      "CommissionAdjustmentFactor": 100,
+                      "AttributeGroups": {
+                        "AttributeGroup": [
+                          {
+                            "Values": "Accidental Injury",
+                            "Name": "OutputDisplay",
+                            "Description": "OutputDisplay"
+                          }
+                        ]
+                      },
+                      "BenefitCode": "AccInj",
+                      "BenefitDescription": "Accidental Injury Cover",
+                      "BenefitName": "Accidental Injury Cover",
+                      "Channel": "AIA",
+                      "BenefitId": "d3985832-3de6-4b44-a06f-57fb1b44ecab",
+                      "isAvailable": true,
+                      "isIndexed": "I",
+                      "isMain": false,
+                      "Load": 0,
+                      "MaxInstancesOfBenefit": "1",
+                      "ParentBenefits": {
+                        "ParentBenefit": [
+                          {
+                            "BenefitId": "fe94f027-56e8-4af1-b7eb-a6b2293a4097",
+                            "BenefitCode": "Life"
+                          }
+                        ]
+                      },
+                      "ProductCode": "AIALivingP",
+                      "ProductName": "AIA Living Personal",
+                      "SortOrder": 15,
+                      "SumAssured": 32323,
+                      "SumAssuredFrequency": "A"
+                    }
+                  ]
+                },
+                "Channel": "AIA",
+                "ProductName": "AIA Living Personal",
+                "ProductCode": "AIALivingP"
+              }
+            ]
+          },
+          "PartyRoleDetails": {
+            "Party": {
+              "selfEmployedGT3Years": null,
+              "EmploymentStatus": "Employed",
+              "Salary": null,
+              "OccupationClass": "1",
+              "Occupation": "Accountant",
+              "Gender": "M",
+              "SmokerStatus": "NS",
+              "BirthDate": null,
+              "Age": "${__eval(${RANDOM_AGE})}",
+              "LastName": "aaa",
+              "FirstName": null
+            },
+            "Type": "Customer",
+            "LifeId": "34e455e4-42c2-4341-847b-53955dec6eaf",
+            "Id": "34e455e4-42c2-4341-847b-53955dec6eaf",
+            "LifeNumber": 1
+          }
+        }
+     ,

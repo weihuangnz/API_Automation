@@ -1,0 +1,54 @@
+        {
+          "Products": {
+            "Product": [
+              {
+                "ProductBenefits": {
+                  "ProductBenefit": [
+                    {
+                      "CommissionAdjustmentFactor": "100",
+                      "AttributeGroups": {
+                        "AttributeGroup": [
+                          {
+                            "Values": "Life",
+                            "Name": "OutputDisplay",
+                            "Description": "OutputDisplay"
+                          }
+                        ]
+                      },
+                      "BenefitCategory": "Life",
+                      "BenefitCode": "AccDth",
+                      "BenefitDescription": "Accidental Death",
+                      "BenefitName": "Accidental Death",
+                      "Channel": "AIA",
+                      "BenefitId": "db06f25f-e1f6-453c-b284-3834bdeb103b",
+                      "isAvailable": true,
+                      "isIndexed": "L",
+                      "isMain": true,
+                      "MaxInstancesOfBenefit": "1",
+                      "PremiumOption": "R",
+                      "ProductCode": "AIALivingP",
+                      "ProductName": "AIA Living Personal",
+                      "SortOrder": 3,
+                      "SumAssured": "${__Random(10000,500000)}"
+                    }
+                  ]
+                },
+                "Channel": "AIA",
+                "ProductName": "AIA Living Personal",
+                "ProductCode": "AIALivingP"
+              }
+            ]
+          },
+          "PartyRoleDetails": {
+            "Party": {
+              "selfEmployedGT3Years": "No",
+              "EmploymentStatus": "Employed",
+              "OccupationClass": "4",
+              "Gender": "M",
+              "SmokerStatus": "NS",
+              "Age": "${__eval(${RANDOM_AGE})}"
+            },
+            "Type": "Customer",
+            "LifeNumber": 1
+          }
+        },
