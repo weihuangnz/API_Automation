@@ -1,0 +1,213 @@
+			{
+				"Products": {
+					"Product": [{
+						"ProductBenefits": {
+							"ProductBenefit": [{
+								"CommissionAdjustmentFactor": "0",
+								"AttributeGroups": {
+									"AttributeGroup": [
+										{
+											"Values": "Yes",
+											"Name": "PremiumCalculation",
+											"Description": "PremiumCalculation"
+										}
+									]
+								},
+								"BenefitCode": "LivBB",
+								"BenefitDescription": "Living Buy-Back",
+								"BenefitName": "Living Buy-Back",
+								"Channel": "SOVHUB",
+								"BenefitId": "41de8456-9c08-46cf-b974-fdb2fe46a3d4",
+								"isAvailable": true,
+								"isMain": false,
+								"ParentBenefits": {
+									"ParentBenefit": [{
+										"LinkType": "A",
+										"BenefitId": "60b67e97-79e3-4774-89c1-582166daff8b",
+										"BenefitCode": "CompLivAss"
+									}]
+								},
+								"ProductName": "AIA Living Personal",
+								"ProductCode": "AIALivingP",
+								"SortOrder": 0
+							},
+							{
+								"CommissionAdjustmentFactor": "0",
+								"AttributeValues": {
+									"AttributeValue": [
+										{
+											"Value": "R"
+										},
+										{
+											"Value": "10"
+										},
+										{
+											"Value": "65"
+										}
+									]
+								},								
+								"AttributeGroups": {
+									"AttributeGroup": [
+										{
+											"Values": "Trauma",
+											"Name": "SumAssuredValidation",
+											"Description": "SumAssuredValidation"
+										},
+										{
+											"Values": "Trauma",
+											"Name": "BundledDiscount",
+											"Description": "BundledDiscount"
+										},
+										{
+											"Values": "Trauma",
+											"Name": "OutputDisplay",
+											"Description": "OutputDisplay"
+										},
+										{
+											"Values": "Yes",
+											"Name": "PremiumCalculation",
+											"Description": "PremiumCalculation"
+										},
+										{
+											"Values": "Yes",
+											"Name": "SumAssuredCalculation",
+											"Description": "SumAssuredCalculation"
+										},
+										{
+											"Values": "Yes",
+											"Name": "PremiumComparison",
+											"Description": "PremiumComparison"
+										},
+										{
+											"Values": "Trauma",
+											"Name": "DisablementCurve",
+											"Description": "DisablementCurve"
+										}
+									]
+								},
+								"BenefitCategory": "Trauma",
+								"BenefitCode": "CompLivAss",
+								"BenefitDescription": "Living Assurance",
+								"BenefitName": "Accelerated Living Assurance",
+								"Channel": "SOVHUB",
+								"BenefitId": "60b67e97-79e3-4774-89c1-582166daff8b",
+								"isAvailable": true,
+								"isMain": false,
+								"LinkType": "A",
+								"Load": 100.0,
+								"LoadingPerMille": 1,
+								"LoadingTerm": "20",
+								"ParentBenefits": {
+									"ParentBenefit": [{
+										"BenefitId": "7a7ddb3b-21dd-46a5-a3b2-242197bfd2ac",
+										"BenefitCode": "Life"
+									}]
+								},
+								"PremiumOption": "R",
+								"ProductName": "AIA Living Personal",
+								"ProductCode": "AIALivingP",
+								"SortOrder": 5,
+								"SumAssured": "98783"
+							},
+							{
+								"CommissionAdjustmentFactor": "0",
+								"AttributeValues": {
+									"AttributeValue": [
+										{
+											"Value": "R"
+										},
+										{
+											"Value": "10"
+										},
+										{
+											"Value": "65"
+										},
+										{
+											"Value": "80"
+										}
+									]
+								},								
+								"AttributeGroups": {
+									"AttributeGroup": [
+										{
+											"Values": "Life",
+											"Name": "OutputDisplay",
+											"Description": "OutputDisplay"
+										},
+										{
+											"Values": "Life",
+											"Name": "BundledDiscount",
+											"Description": "BundledDiscount"
+										},
+										{
+											"Values": "Yes",
+											"Name": "PremiumCalculation",
+											"Description": "PremiumCalculation"
+										},
+										{
+											"Values": "Yes",
+											"Name": "SumAssuredCalculation",
+											"Description": "SumAssuredCalculation"
+										},
+										{
+											"Values": "Yes",
+											"Name": "PremiumComparison",
+											"Description": "PremiumComparison"
+										},
+										{
+											"Values": "Life",
+											"Name": "DisablementCurve",
+											"Description": "DisablementCurve"
+										}
+									]
+								},
+								"BenefitCategory": "Life",
+								"BenefitCode": "Life",
+								"BenefitDescription": "Life Cover",
+								"BenefitName": "Life Cover",
+								"Channel": "SOVHUB",
+								"ExistingCover": "N",
+								"BenefitId": "7a7ddb3b-21dd-46a5-a3b2-242197bfd2ac",
+								"isAvailable": true,
+								"isIndexed": "L",
+								"isMain": true,
+								"Load": 200.0,
+								"LoadingPerMille": 1,
+								"LoadingTerm": "11",
+								"PremiumOption":  "R",
+								"ProductName": "AIA Living Personal",
+								"ProductCode": "AIALivingP",
+								"SortOrder": 1,
+								"SumAssured": "${__eval(${RANDOM_SUM_ASSURED})}"
+							}							]
+						},
+						"Channel": "SOVHUB",
+						"ProductName": "AIA Living Personal",
+						"ProductCode": "AIALivingP"
+					}]
+				},
+				"PartyRoleDetails": {
+					"Party": {
+						"selfEmployedGT3Years" : "No",
+						"EmploymentStatus" : "Employed",            
+						"OccupationClass" : "3",             
+						"Gender" : "M",
+						"SmokerStatus" : "NS",    
+						"Memberships":[
+						{
+							"Membership":[
+								  {
+									 "MembershipTypeCode":"Vitality"
+								  }
+							   ]
+							}
+						 ],   
+						"Age" : "${__eval(${RANDOM_AGE})}",						
+						"LastName": "zzz"							
+					},
+					"Type": "Customer",
+					"LifeId": "b878e2db-9426-42bc-afff-60cac4ee26ee",
+					"Id": "b878e2db-9426-42bc-afff-60cac4ee26ee",
+					"LifeNumber": 1
+				}
+			},

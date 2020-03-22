@@ -1,0 +1,165 @@
+
+            {
+               "Products":{
+                  "Product":[
+                     {
+                        "ProductBenefits":{
+                           "ProductBenefit":[
+                              {
+                                 "AttributeValues":{
+                                    "AttributeValue":[
+                                       {
+                                          "Value":"R"
+                                       },
+                                       {
+                                          "Value":"10"
+                                       },
+                                       {
+                                          "Value":"65"
+                                       }
+                                    ]
+                                 },
+                                 "CommissionAdjustmentFactor":"100",
+                                 "AttributeGroups":{
+                                    "AttributeGroup":[
+                                        {
+                                          "Values":"Income Protection",
+                                          "Name":"BundledDiscount",
+                                          "Description":"BundledDiscount"
+                                       },
+                                       {
+                                          "Values":"Income Protection",
+                                          "Name":"SumAssuredValidation",
+                                          "Description":"SumAssuredValidation"
+                                       },
+                                       {
+                                          "Values":"Income Protection",
+                                          "Name":"OutputDisplay",
+                                          "Description":"OutputDisplay"
+                                       },
+                                       {
+                                          "Values":"Yes",
+                                          "Name":"PremiumCalculation",
+                                          "Description":"PremiumCalculation"
+                                       },
+                                       {
+                                          "Values":"Yes",
+                                          "Name":"SumAssuredCalculation",
+                                          "Description":"SumAssuredCalculation"
+                                       },
+                                       {
+                                          "Values":"Yes",
+                                          "Name":"PremiumComparison",
+                                          "Description":"PremiumComparison"
+                                       },
+                                       {
+                                          "Values":"Income Protection",
+                                          "Name":"DisablementCurve",
+                                          "Description":"DisablementCurve"
+                                       }
+                                    ]
+                                 },
+                                 "BenefitCategory":"Income Protection",
+                                 "BenefitCode":"DI",
+                                 "BenefitDescription":"Income Protection",
+                                 "BenefitName":"Income Protection",
+                                 "BenefitOutputSortOrder":7,
+                                 "BenefitType" : "AV",
+                                 "Channel":"SOVHUB",
+                                 "BenefitId":"74b9474e-e85a-4bb9-9385-d4df74acdcae",
+                                 "isAvailable":true,
+                                 "isIndexed" : "L",
+                                 "isMain":true,
+                                 "isSyncBenefit":false,
+                                 "Load" : "0.0",
+                                 "MandatoryChildBenefits":"TCMP_WOP",
+                                 "MaxBenefitsPerLife":2,
+                                 "MentalHealthExclusion":"No",
+                                 "MentalHealthLimitation" : "No",
+                                 "PaymentPeriod" : "1Y",
+                                 "PremierOption" : "No",
+                                 "PremiumOption" : "R",
+                                 "ProductCode":"TCMP",
+                                 "ProductName":"TotalCare Max - Personal",
+                                 "SortOrder":9,
+                                 "SumAssured" : "${__Random(50000,1500000)}",
+                                 "SumAssuredFrequency":"A",
+                                 "WaitingPeriod" : "2"
+                              },                              
+                              {
+                                 "CommissionAdjustmentFactor":"100",
+                                 "AttributeGroups":{
+                                    "AttributeGroup":[
+                                       {
+                                          "Values":"Yes",
+                                          "Name":"PremiumCalculation",
+                                          "Description":"PremiumCalculation"
+                                       }
+                                    ]
+                                 },
+                                 "BenefitCode":"WOP",
+                                 "BenefitDescription":"Waiver of Premium",
+                                 "BenefitName":"Waiver of Premium",
+                                 "BenefitOutputSortOrder":25,
+                                 "Channel":"SOVHUB",
+                                 "BenefitId":"2ec8ec6c-6995-4b28-988a-1e56dcecd53a",
+                                 "isAvailable":true,
+                                 "isMain":false,
+                                 "isSyncBenefit":false,
+                                 "Load" : "200.0",
+                                 "ParentBenefits":{
+                                    "ParentBenefit":[
+                                       {
+                                          "BenefitId":"74b9474e-e85a-4bb9-9385-d4df74acdcae",
+                                          "BenefitCode":"DI"
+                                       }
+                                    ]
+                                 },
+                                 "SortOrder":17,
+                                 "WaitingPeriod" : "2"
+                              }
+                           ]
+                        },
+                        "Channel":"AIA",
+                         "ProductName": "AIA Living Personal",
+                        "ProductCode": "AIALivingP"
+                     }
+                  ]
+               },
+               "PartyRoleDetails":{
+                  "Party":{
+                     "Memberships":[
+                        {
+                           "Membership":[
+                              {
+                                 "MembershipTypeCode":""
+                              }
+                           ]
+                        }
+                     ],
+                     "PartyId":null,
+                     "BusinessOwner":"No",
+                     "selfEmployedGT3Years":"No",
+                     "EmploymentStatus":"Self-employed",
+                     "Salary":null,
+                      "OccupationClass":"4",                    
+                     "Gender":"M",
+                     "SmokerStatus":"S",
+                     "BirthDate":null,
+                      "Age":"${__eval(${RANDOM_AGE})}",
+                     "LastName":"test",
+                     "FirstName":null
+                  },
+                  "Type":"Customer",
+                  "UndergoHealthScreen":false,
+                  "TelephoneUnderwriting":false,
+                  "HasGPDetails":false,
+                  "HasExistingCover":false,
+                  "AURASessionId":null,
+                  "AURAQuestionnaireId":null,
+                  "LifeId":"35c19db5-339e-4256-9132-9ac9f83b3216",
+                  "Id":"35c19db5-339e-4256-9132-9ac9f83b3216",
+                  "LifeNumber":1
+               }
+            },
+            
