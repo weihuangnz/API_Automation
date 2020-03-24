@@ -1,0 +1,66 @@
+ 
+            {  
+               "Products":{  
+                  "Product":[  
+                     {  
+                        "ProductBenefits":{  
+                           "ProductBenefit":[  
+                              {  
+                                 "CommissionAdjustmentFactor":"30",
+                                 "AttributeGroups":{  
+                                    "AttributeGroup":[  
+                                       {  
+                                          "Values":"TPD",
+                                          "Name":"SumAssuredValidation",
+                                          "Description":"SumAssuredValidation"
+                                       },
+                                       {  
+                                          "Values":null,
+                                          "Name":"OutputDisplay",
+                                          "Description":"OutputDisplay"
+                                       }
+                                    ]
+                                 },
+                                 "BenefitCategory":"TPD",
+                                 "BenefitCode":"TPD",
+                                 "BenefitDescription":"Total Permanent Disablement",
+                                 "BenefitName":"Total Permanent Disablement",
+                                 "BenefitTerm":"70",
+                                 "BenefitType":"OOCC",
+                                 "Channel":"AIA",
+                                 "BenefitId":"3256e203-9ad8-436b-aab3-a2bfa73a6322",
+                                 "isAvailable":true,
+                                 "isIndexed":"L",
+                                 "isMain":true,
+                                 "LinkType":"S",
+                                 "Load":"100.0",
+                                 "LoadingPerMille":"5",
+                                                                                                                                "LoadingTerm": "5",
+                                 "MaxInstancesOfBenefit":"1",
+                                 "PremiumOption":"R",
+                                 "ProductCode":"AIALivingP",
+                                 "ProductName":"AIA Living Personal",
+                                 "SortOrder":13,
+                                 "SumAssured":"${__Random(10000,5000000)}"
+                              }
+                           ]
+                        },
+                        "Channel":"AIA",
+                        "ProductName":"AIA Living Personal",
+                        "ProductCode":"AIALivingP"
+                     }
+                  ]
+               },
+               "PartyRoleDetails":{  
+                  "Party":{  
+                     "selfEmployedGT3Years":"No",
+                     "EmploymentStatus":"Self-employed",                     
+                     "OccupationClass":"4",                      
+                     "Gender":"M",
+                     "SmokerStatus":"NS",                    
+                     "Age": "${__eval(${RANDOM_AGE})}" 
+                  },                
+                  "LifeNumber":1
+               }
+            }
+         ,

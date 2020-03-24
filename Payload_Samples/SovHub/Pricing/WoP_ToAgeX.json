@@ -1,0 +1,68 @@
+{
+        "PartyRoleDetails" : {
+          "LifeNumber" : 1,         
+          "Party" : {
+            "selfEmployedGT3Years" : "No",  
+            "EmploymentStatus" : "Employed",          
+            "OccupationClass" : "4",            
+            "Gender" : "M",
+            "SmokerStatus" : "S",          
+            "Age": "${__eval(${RANDOM_AGE})}"
+          }
+        },
+        "Products" : {
+          "Product" : [ {
+            "ProductCode" : "AIALivingP",
+            "Channel" : "AIA",
+            "ProductName" : "AIA Living Personal",
+            "ProductBenefits" : {
+              "ProductBenefit" : [ {
+                "Load" : "0.0",
+                "LoadingPerMille" : "0",
+                "LoadingTerm" : "0",
+                "isIndexed" : "L",
+                "PremiumOption" : "65",
+                "SumAssured" : "${__eval(${RANDOM_SUM_ASSURED})}",
+                "ReviewTerm" : "",
+                "CompositeCode" : "TCMP_Life",
+                "BenefitCode" : "Life",
+                "BenefitDescription" : "Life Cover",
+                "BenefitName" : "Life Cover",
+				"ExistingCover":"N",
+                "isMain" : true,                
+                "isAvailable" : true,
+                "duplicateBenefit" : false,
+                "MatchingBenefitCode" : "Life",
+                "CommissionAdjustmentFactor" : "60"
+              }, {
+                "PaymentPeriod" : "",
+                "Load" : "0.0",
+                "WaitingPeriod" : "2",
+                "isIndexed" : "",
+                "PremiumOption" : "",
+                "SumAssured" : "",
+                "BenefitTerm" : "",
+                "ReviewTerm" : "",
+                "isOtherBenefit" : true,
+                "CompositeCode" : "TCMP_WOP",
+                "BenefitCode" : "WOP",
+                "BenefitDescription" : "Waiver of Premium",
+                "BenefitName" : "Waiver of Premium",
+                "isMain" : false,
+                "ParentBenefits" : {
+                  "ParentBenefit" : [ {
+                    "BenefitCode" : "Life"
+                  }, {
+                    "BenefitCode" : "DI"
+                  } ]
+                },
+                "MaxInstancesOfBenefit" : "1",
+                "isAvailable" : true,
+                "duplicateBenefit" : false,
+                "MatchingBenefitCode" : "WOP",
+                "CommissionAdjustmentFactor" : "60"
+              } ]
+            }
+          }]
+        }
+      },

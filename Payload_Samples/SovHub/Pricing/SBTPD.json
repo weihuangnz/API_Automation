@@ -1,0 +1,103 @@
+{
+				"Products": {
+					"Product": [{
+						"ProductBenefits": {
+							"ProductBenefit": [	
+							{
+								"CommissionAdjustmentFactor": "90",
+								"AttributeGroups": {
+									"AttributeGroup": [{
+										"Values": "Trauma",
+										"Name": "SumAssuredValidation",
+										"Description": "SumAssuredValidation"
+									},
+									{
+										"Values": "Trauma",
+										"Name": "OutputDisplay",
+										"Description": "OutputDisplay"
+									},
+									{
+										"Values": "Yes",
+										"Name": "PremiumCalculation",
+										"Description": "PremiumCalculation"
+									},
+									{
+										"Values": "Yes",
+										"Name": "SumAssuredCalculation",
+										"Description": "SumAssuredCalculation"
+									},
+									{
+										"Values": "Yes",
+										"Name": "PremiumComparison",
+										"Description": "PremiumComparison"
+									}]
+								},
+								"BenefitCategory": "Trauma",
+								"BenefitCode": "ProgCare",
+								"BenefitDescription": "Progressive Care",
+								"BenefitName": "Progressive Care",
+								"Channel": "AIA",
+								"BenefitId": "168d98d9-fd66-451c-8f50-961072114e69",
+								"isAvailable": true,								
+								"isIndexed": "L",
+								"isMain": true,
+								"LinkType": "S",
+								"Load": 100.0,
+								"LoadingPerMille": 0,
+								"LoadingTerm": "0",
+								"PremiumOption": "R",
+								"ProductCode": "AIALivingP",
+								"ProductName": "AIA Living Personal",
+								"SortOrder": 4,
+								"SumAssured": "${__Random(50000,1500000)}"
+							},
+							{
+								"CommissionAdjustmentFactor": "90",
+								"AttributeGroups": {
+									"AttributeGroup": [{
+										"Values": "Yes",
+										"Name": "PremiumCalculation",
+										"Description": "PremiumCalculation"
+									}]
+								},
+								"BenefitCode": "TPDCond",
+								"BenefitDescription": "TPD Condition",
+								"BenefitName": "TPD Condition",
+								"Channel": "AIA",
+								"BenefitId": "fbe4166a-65ff-4e46-b350-ab2770253037",
+								"isAvailable": true,
+								"isMain": false,
+								"Load": 0.0,
+								"ParentBenefits": {
+									"ParentBenefit": [{
+										"LinkType": "S",
+										"BenefitId": "168d98d9-fd66-451c-8f50-961072114e69",
+										"BenefitCode": "ProgCare"
+									}]
+								},
+								"ProductCode": "AIALivingP",
+								"ProductName": "AIA Living Personal",
+								"SortOrder": 0
+							}							]
+						},
+						"Channel": "AIA",
+						"ProductName": "AIA Living Personal",
+						"ProductCode": "AIALivingP"
+					}]
+				},
+				"PartyRoleDetails": {
+					"Party": {
+						"selfEmployedGT3Years" : "Yes",
+						"EmploymentStatus" : "Self-employed",            
+						"OccupationClass" : "4",             
+						"Gender" : "M",
+						"SmokerStatus" : "NS",             
+						"Age": "${__eval(${RANDOM_AGE})}",						
+						"LastName": "zzz"							
+					},
+					"Type": "Customer",
+					"LifeId": "018f1715-a905-409e-8b03-3814140bf81a",
+					"Id": "018f1715-a905-409e-8b03-3814140bf81a",
+					"LifeNumber": 1
+				}
+			},

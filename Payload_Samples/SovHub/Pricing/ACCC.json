@@ -1,0 +1,97 @@
+        {
+          "PartyRoleDetails": {
+            "Id": "fc0ce194-6893-4137-911f-ce3be9f489be",
+            "LifeNumber": 1,
+            "LifeAssuredPremium": null,
+            "Party": {
+              "selfEmployedGT3Years": "No",
+              "EmploymentStatus": "Self-employed",
+              "Salary": null,
+              "OccupationClass": "1",
+              "Occupation": null,
+              "Gender": "M",
+              "SmokerStatus": "NS",
+              "BirthDate": null,
+              "Age": "${__eval(${RANDOM_AGE})}",
+              "LastName": "zzz",
+              "FirstName": null
+            },
+            "LifeId": "fc0ce194-6893-4137-911f-ce3be9f489be"
+          },
+          "Products": {
+            "Product": [
+              {
+                "ProductCode": "AIALivingP",
+                "Channel": "AIA",
+                "ProductName": "AIA Living Personal",
+                "ProductBenefits": {
+                  "ProductBenefit": [
+                    {
+                      "BenefitCategory": "Life",
+                      "BenefitCode": "Life",
+                      "BenefitDescription": "Life Cover",
+                      "BenefitName": "Life Cover",
+                      "ExistingCover": "N",
+                      "BenefitId": "f2b13e76-cd8b-4ff3-9bc7-a394379448d3",
+                      "isAvailable": true,
+                      "isMain": true,
+                      "Load": "50.0",
+                      "LoadingPerMille": "5",
+                      "MaxInstancesOfBenefit": "4",
+                      "SortOrder": 1,
+                      "SumAssured": "${__eval(${RANDOM_SUM_ASSURED})}",
+                      "isIndexed": "L",
+                      "PremiumOption": "R",
+                      "LoadingTerm": "8",
+                      "CommissionAdjustmentFactor": "100"
+                    },
+                    {
+                      "BenefitCategory": "Trauma",
+                      "BenefitCode": "CompLivAss",
+                      "BenefitDescription": "Critical Conditions",
+                      "BenefitName": "Accelerated Critical Conditions",
+                      "Channel": "AIA",
+                      "BenefitId": "e6f0d0e9-6741-4373-9d75-a658f7154c8c",
+                      "isAvailable": true,
+                      "isMain": false,
+                      "LinkType": "A",
+                      "Load": "0.0",
+                      "LoadingPerMille": "4",
+                      "LoadingTerm": "3",
+                      "MaxInstancesOfBenefit": "4",
+                      "AttributeGroups": {
+                        "AttributeGroup": [
+                          {
+                            "Name": "SumAssuredValidation",
+                            "Description": "SumAssuredValidation",
+                            "Values": "Trauma"
+                          },
+                          {
+                            "Name": "OutputDisplay",
+                            "Description": "OutputDisplay",
+                            "Values": "Trauma"
+                          }
+                        ]
+                      },
+                      "LivingBuybackDiscount": "Yes",
+                      "ParentBenefits": {
+                        "ParentBenefit": [
+                          {
+                            "BenefitId": "f2b13e76-cd8b-4ff3-9bc7-a394379448d3",
+                            "BenefitCode": "Life"
+                          }
+                        ]
+                      },
+                      "ProductCode": "AIALivingP",
+                      "ProductName": "AIA Living Personal",
+                      "SortOrder": 5,
+                      "SumAssured": "166666",
+                      "PremiumOption": "R",
+                      "CommissionAdjustmentFactor": "100"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
